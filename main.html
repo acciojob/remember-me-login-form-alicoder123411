@@ -3,27 +3,21 @@
 <head>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
 
+<body>
   <h1>Login Form</h1>
 
   <form id="loginForm">
-    <label>
-      Username
-      <input id="username" type="text" placeholder="Username" required>
-    </label><br>
+    <label for="username">Username:</label>
+    <input id="username" type="text" placeholder="Username" /><br>
 
-    <label>
-      Password
-      <input id="password" type="password" placeholder="Password" required>
-    </label><br>
+    <label for="password">Password:</label>
+    <input id="password" type="password" placeholder="Password" /><br>
 
-    <label>
-      Remember me
-      <input id="checkbox" type="checkbox">
-    </label><br>
+    <label for="checkbox">Remember me:</label>
+    <input id="checkbox" type="checkbox" /><br>
 
-    <button id="submit" type="submit">Submit</button>
+    <input id="submit" type="submit" value="Submit" />
   </form>
 
   <button id="existing" style="display:none;">Login as existing user</button>
